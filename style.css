@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: url("./images/gunpowder_and_T.jpg");
+    background-image: url("./Images/gunpowder_and_T.jpg");
     background-size: 100%;
     background-position-y: 150px;
     text-align: center;
@@ -101,7 +101,7 @@ a {
   }
 
   #main {
-    background-image: url("./images/traingin.jpg");
+    background-image: url("./Images/traingin.jpg");
     background-size: cover;
     background-position: bottom center;
     height: 700px;
