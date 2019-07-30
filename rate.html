@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rate My Gin - We Rate Gin</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+    </head>
+
+
+    <header>
+
+            <h1>We Rate Gin</h1>
+        
+        </header>
+       
+    
+       
+        <nav>
+                <ul>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./rate.html">Rate Gin</a></li>
+                  <li><a href="./reviews.html">Reviews</a></li>
+                  <li><a href="./soon.html">App</a></li>
+                  <li><a href="./soon.html">Miscellany</a></li>
+                  <li><a href="#social">Social</a></li>
+                </ul>
+        </nav>
+        <body>
+                <section id="overlay">
+                    <form action="submission.html" method="POST">
+                        <h2>Rate your gin</h2>
+
+                        <section class="legal_age">
+                                <label for="age">What year were you born?</label>
+                                <input type="number" name="age" id="age" max="2001" min="1900" required>
+                              </section>
+                              <hr>
+
+
+                        <section class="gin_name">
+                                    <label for="gin_name">Which gin are you rating?</label>
+                                    <input type="text" name="gin_name" id="gin_name" required maxlength=30>
+                                  </section>
+                                  <hr>
+                        
+                        <section class="serve-type">
+                                    <label for="serve">How was your gin served?</label>
+                                    <select name="serve" id="serve">
+                                            <option value="neat">neat</option>
+                                            <option value="mixer">with mixer</option>
+                                            <option value="cocktail">cocktail</option>
+                                          </select>
+                                        </section>
+                                        <hr>
+
+                        <section class="venue-type">
+                                    <span>Where did you have your drink?</span>
+                                    <br>
+                                    <input type="radio" name="location" id="home" value="yes">
+                                    <label for="home">At home</label>
+                                    <input type="radio" name="location" idea="out" value="yes">
+                                    <label for="out">Out and about</label>
+                                  </section>
+                                  <hr>
+
+                        <section class="aromatics">
+                                <span>Which aromatics did your gin have?
+                                    <br>
+                                <a href="#tasting">(Tasting notes)</a></span>       
+                                
+                                <br>
+                                <input type="checkbox" name="flavour" id="juniper" value="juniper">
+                                <label for="juniper">Juniper</label>
+                                <input type="checkbox" name="flavour" id="citrus" value="citrus">
+                                <label for="citrus">Citrus</label>
+                                <input type="checkbox" name="flavour" id="spice" value="spice">
+                                <label for="spice">Spice</label> 
+                                <input type="checkbox" name="flavour" id="herbal" value="herbal">
+                                <label for="herbal">Herbal</label>
+                                <input type="checkbox" name="flavour" id="fruit" value="fruity">
+                                <label for="fruity">Fruit</label>
+                                <input type="checkbox" name="flavour" id="floral" value="floral">
+                                <label for="floral">Floral</label>
+                                
+                                
+                                
+                              </section>
+                              <hr>
+
+                        <section class="score">
+                                <label for="Rating">How would you score your gin? (0-10)</label>
+                                <br>
+                                <span>Wouldn't drink again</span>
+                                <input type="range" name="Rating" id="Rating" value="3" min="0" max="10">
+                                <span>Would definitely drink again</span>
+                        </section>
+                        <hr>
+
+                        <section class="picture">
+                          <label for="picture">Upload an image of your drink</label>
+                          <br>
+                          <input type="file" name="picture" accept="image/*">
+                          <hr>                          
+                        </section>
+
+                        <section>
+                        <label for="url">Enter manufacturer's website address (if known):</label>
+                        <input type="url" name="url" id="url"
+                        placeholder="https://example.com"
+                        pattern="https://.*" size="30">
+                        <hr>
+                        </section>  
+
+                        <section class="extra-info">
+                                <label for="extra">Anything else you want to add?</label>
+                                <br>
+                                <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+                              </section>
+                              <hr>
+                      
+                              <section class="submission">
+                                <input type="submit" value="Submit">
+                              </section>
+                    </form>
+                    </section>
+                        
+
+                        
+
+                <div id="tasting">
+                            <h2>
+                                <br>
+                                <b>Juniper:</b> green, resinous notes of juniper berries; can be broken down to include spruce, pine needles, cedar, pine, etc.
+                                <br>
+                                <br>
+                                Citrus: bright, zingy and zesty; the flavours commonly associated with citrus fruit such as lemon, lime, orange and grapefruit, but also including the citrus character of botanicals such as coriander, lemongrass, verbena, etc.
+                                <br>
+                                <br>
+                                Spice: including both sweet spice: e.g. cinnamon, cassia, nutmeg, cardamom, clove; and savoury spice: e.g. cumin, pepper and ginger.
+                                <br>
+                                <br>
+                                Herbal: herbal, leafy notes, both dried and fresh, including basil, rosemary, thyme, mint, sage, fennel, etc.
+                                <br>
+                                <br>
+                                Fruit: capturing the plump, fruity character of a gin beyond citrus. Includes notes of berries (strawberry, raspberry, etc.), stone fruit (cherry, plum, peach, etc.) and any other fruit.
+                                <br>
+                                <br>    
+                                Floral: perfumed characteristics of flowers such as rose, violet, orange blossom, lavender. <br>
+                                <br>
+                                <br>
+                                (Tasting notes courtesy of<a href="https://www.theginguild.com/gin-note/" target="_blank">The Gin Guild</a>)<br>
+                                <br>
+
+                
+                        </h2>
+                  
+                
+                     </div> 
+
+
+
+
+
+
+        </body>
+
+        <a name="#social"></a>
+    <footer>
+
+<ul>
+        <li><a href="https://twitter.com/gin_rate" target="_blank"><img src="./images/twittericon.png" alt="twitter" width=50 height=50></a></li>
+        <li><a href="https://instagram.com/werategin" target="_blank"><img src="./images/instaicon.png" alt="twitter" width=50 height=50></a></li>
+        <li><a href="mailto:werategin@gmail.com"><img src="./images/emailicon.png" alt="twitter" width=50 height=50></a></li>
+        
+      </ul>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+</html>
